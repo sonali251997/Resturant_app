@@ -1,0 +1,39 @@
+#nav-bar ul li a {
+  padding: 10px;
+}
+
+#showcase:before {
+  content: " ";
+  background: url("./assests/header.jpg") no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70%;
+}
+
+#showcase .showcase-container {
+  height: 110vh;
+}
+
+#showcase .showcase-content {
+  margin-bottom: 70px;
+}
+
+#showcase .logo img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+  display: none;
+}
+
+.l-heading {
+  font-size: 30px;
+}
+.lead {
+  font-size: 10px;
+}
+.btn {
+  font-size: 0.5rem;
+  padding: 0.1rem 1rem;
+}
